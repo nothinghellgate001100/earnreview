@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EarnReview</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">EarnReview</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#register">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center">
+            <h1 class="display-4">Earn Money by Rating Products</h1>
+            <p class="lead">Join EarnReview today and start earning by sharing your opinions on Amazon, Alibaba, and AliExpress products!</p>
+            <a href="#register" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features py-5">
+        <div class="container">
+            <h2 class="text-center">Features</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="amazon.jpg" class="img-fluid" alt="Feature 1">
+                    <h3>Amazon Earnings</h3>
+                    <p>Earn 4% commission by working with a price limit of 20USDT to 400USDT.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="alibaba.jpg" class="img-fluid" alt="Feature 2">
+                    <h3>Alibaba Earnings</h3>
+                    <p>Earn 7% commission with a price limit of 350USDT to 800USDT.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="aliexpress.jpeg" class="img-fluid" alt="Feature 3">
+                    <h3>AliExpress Earnings</h3>
+                    <p>Earn 10% commission with a price limit of 800USDT to unlimited.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">How It Works</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="how-it-works.jpg" class="img-fluid" alt="How It Works">
+                </div>
+                <div class="col-md-6">
+                    <ol>
+                        <li>Register on our platform.</li>
+                        <li>Deposit USDT to your account.</li>
+                        <li>Rate products on Amazon, Alibaba, and AliExpress.</li>
+                        <li>Earn commissions based on your ratings and reviews.</li>
+                    </ol>
+                    <p>Our system automatically uses your money to place orders, demonstrating real selling before returning your money with the added commission. This ensures transparency and authenticity in your earnings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials py-5">
+        <div class="container">
+            <h2 class="text-center">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"EarnReview is amazing! I've earned a lot by just rating products."</p>
+                        <footer class="blockquote-footer">John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 text-center">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"A great way to make some extra money in my spare time."</p>
+                        <footer class="blockquote-footer">Jane Smith</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 text-center">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"The process is transparent and reliable. Highly recommended!"</p>
+                        <footer class="blockquote-footer">Samuel Lee</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Section -->
+    <section id="register" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Register Now</h2>
+            <form class="mx-auto" style="max-width: 600px;">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <p>&copy; 2024 EarnReview. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#how-it-works img {
+    border-radius: 10px;
+}
+
+.testimonials blockquote {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+}
